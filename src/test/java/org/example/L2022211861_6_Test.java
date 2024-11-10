@@ -20,7 +20,7 @@ public  class L2022211861_6_Test {
                 Arrays.asList("google"),
                 Arrays.asList("amazon")
         );
-        List<Integer> expected = Arrays.asList(0, 1, 3);// 修改期望值，使其与实际结果不匹配
+        List<Integer> expected = Arrays.asList(0, 1, 9);// 修改期望值，使其与实际结果不匹配
         assertEquals(expected, solution.peopleIndexes(favoriteCompanies));
     }
 
